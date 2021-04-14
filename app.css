@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body {
+  background-color:#343148ff;
+  font-family:cursive; 
+}
+.wrapper {
+  background-color: #d7c49eff;
+  width: 500px;
+  padding: 25px;
+  margin: 25px auto 0;
+  border-radius: 55px;
+}
+.wrapper h2 {
+  color:black;
+  font-family: cursive;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px #fefefe;
+}
+h4 {
+  padding-bottom: 5px;
+  color:black;
+  text-align: left;
+}
+.input-group{
+  margin-bottom: 8px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  padding: 5px 0;
+}
+.input-box {
+  width: 100%;
+  position: relative;
+  margin-right: 10px;
+}
+input.name {
+  border-radius: 5px;
+  width: 100%;
+  padding: 14px 10px 14px 50px;
+  background-color: rgb(233, 254, 255);
+  border: 1px solid grey;
+  outline: none;
+} 
+.icon{
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  left: 7px;
+  bottom: 0;
+ font-size: 20px;
+}
+.fa-envelope{
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  left: 7px;
+  bottom: 0;
+ font-size: 20px;
+}
+input.dob {
+  text-align:center;
+  border-radius: 5px;
+  width: 29%;
+  padding: 10px;
+  font-size: 1em;
+  background-color: rgb(233, 254, 255);
+  outline: none;
+  border: 1px solid gray;
+}
+.radio{
+  display: none;
+}
+.input-box label{
+  width: 50%;
+  padding: 10px;
+  text-align: center; 
+  border: 1px solid gray;
+  float: left;
+  background-color: rgb(233, 254, 255);
+  border-radius: 5px;
+}
+.input-box label:first-of-type{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+}
+.input-box label:last-of-type{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.radio:checked +label{
+  background-color:#343148ff;
+  color: white;
+}
+.input-box input[type="tel"]{
+  border-radius: 5px;
+  width: 100%;
+  padding: 14px 10px 14px 50px;
+  background-color: rgb(233, 254, 255);
+  border: 1px solid grey;
+  outline: none;
+}
+.input-box select{
+  padding: 10px;
+  width: 50%;
+  float: left;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: rgb(233, 254, 255);
+  outline: none;
+  font-size: 1em;
+  background-color:rgb(233, 254, 255);
+}
+.input-box button{
+  width: 60%;
+  background-color:#343148ff;
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 80px;
+  text-align: center;
+  border: 1px solid gray;
+}
+.input-box button:hover{
+  background-color: #d7c49eff;
+}
